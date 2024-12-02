@@ -1,9 +1,10 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import bg1 from "../assets/bg1.png";
-import l1 from '../assets/l1.png'
-import l2 from '../assets/l2.png'
-import l3 from '../assets/l3.png'
+import l1 from "../assets/l1.png";
+import l2 from "../assets/l2.png";
+import l3 from "../assets/l3.png";
+import { BsBag } from "react-icons/bs";
 
 function Home() {
   return (
@@ -18,7 +19,9 @@ function Home() {
           <h1 className=" cursor-pointer">Products</h1>
           <h1 className=" cursor-pointer">Blogs</h1>
           <h1 className=" cursor-pointer">Contact Us</h1>
-          <h1 className=" cursor-pointer">logo</h1>
+          <h1 className=" cursor-pointer w-16">
+            <BsBag />
+          </h1>
         </div>
       </div>
 
@@ -28,17 +31,17 @@ function Home() {
         </h1>
 
         <div className="flex items-center gap-5">
-          <img src={l1}/>
+          <img src={l1} />
           <p>Anti-Greying Properties</p>
         </div>
 
-        <div className="flex items-center gap-2">
-          <img src={l2} />
+        <div className="flex items-center gap-5">
+          <img src={l2} className="-mx-2" />
           <p>Keep Hair Thick & Smooth</p>
         </div>
 
         <div className="flex items-center gap-5">
-          <img src={l3}/>
+          <img src={l3} />
           <p>100% Chemical Free</p>
         </div>
 

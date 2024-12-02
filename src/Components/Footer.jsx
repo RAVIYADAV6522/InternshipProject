@@ -1,5 +1,8 @@
 import React from "react";
 import logo from "../assets/footerlogo.png";
+import { PiInstagramLogoThin } from "react-icons/pi";
+import { SlSocialFacebook } from "react-icons/sl";
+import { SlSocialYoutube } from "react-icons/sl";
 function Footer() {
   return (
     <>
@@ -22,15 +25,15 @@ function Footer() {
 
         <div className="flex gap-10 mt-7">
           <div className=" cursor-pointer w-12 h-12 border-2 rounded-full flex justify-center items-center">
-            <p>IG</p>
+          <PiInstagramLogoThin />
           </div>
 
           <div className=" cursor-pointer  w-12 h-12 border-2 rounded-full flex justify-center items-center">
-            <p>FB</p>
+          <SlSocialFacebook />
           </div>
 
           <div className=" cursor-pointer w-12 h-12 border-2 rounded-full flex justify-center items-center">
-            <p>YT</p>
+          <SlSocialYoutube />
           </div>
         </div>
 
