@@ -4,6 +4,7 @@ import OurProducts from "./Components/OurProducts";
 import Care from "./Components/Care";
 import LoveAndCare from "./Components/LoveAndCare";
 import Customer from "./Components/Customer";
+import Follow from "./Components/Follow";
 function App() {
   return (
     <>
@@ -11,7 +12,9 @@ function App() {
       <Care />
       <LoveAndCare />
       <Customer />
+      <Follow/>
       <Footer />
+      
     </>
   );
 }
