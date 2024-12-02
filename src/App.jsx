@@ -5,10 +5,11 @@ import Care from "./Components/Care";
 function App() {
   return (
     <>
-      {/* <Home />
-      <Footer /> */}
+      <Home />
+      <Care/> 
+      <Footer />
       
-      <Care/>
+      
     </>
   );
 }
