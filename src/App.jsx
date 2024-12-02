@@ -4,7 +4,7 @@ import OurProducts from "./Components/OurProducts";
 function App() {
   return (
     <>
-      {/* <Home /> */}
+      <Home />
       <Footer />
       {/* <OurProducts/> */}
     </>
