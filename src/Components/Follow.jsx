@@ -36,7 +36,7 @@ export default function Follow() {
           </button>
         </div>
 
-        <div className="w-[70vw] h-[40vh] border-2 border-y-amber-300 flex flex-col items-center justify-center gap-5 rounded-2xl">
+        <div className="w-[70vw] h-[40vh] border-2 border-y-amber-300 flex flex-col items-center justify-center gap-5 rounded-2xl mt-10">
           <h1 className="text-4xl">Subscribe & Get 10% Off</h1>
           <p className="text-gray-400">
             Be updated on new arrivals, trends, and offers. Subscribe now!
