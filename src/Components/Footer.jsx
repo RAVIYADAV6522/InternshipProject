@@ -2,47 +2,50 @@ import React from "react";
 import logo from "../assets/footerlogo.png";
 function Footer() {
   return (
-    <div className="h-screen bg-cover bg-center bg-[url('/src/assets/footer.png')] flex flex-col items-center">
-      {/* {upper part} */}
-      <div>
-        <div>
-          <img className="w-60" src={logo} />
+    <>
+      <div className=" flex flex-col items-center h-screen bg-cover bg-center bg-[url('/src/assets/footer.png')]">
+        <div className="w-[30vw] mt-20">
+          <img src={logo} />
         </div>
-        <div className="flex gap-5">
-          <h1>About Us</h1>
-          <h1>Products</h1>
-          <h1>Blogs</h1>
-          <h1>Contact Us</h1>
+
+        <div className="flex gap-10 text-xl text-white">
+          <h1 className=" cursor-pointer">Home</h1>
+          <h1 className=" cursor-pointer">About Us</h1>
+          <h1 className=" cursor-pointer">Products</h1>
+          <h1 className=" cursor-pointer">FAQ</h1>
+          <h1 className=" cursor-pointer">Contact Us</h1>
+        </div>
+
+        <div className="w-[80vw] mt-7">
+          <hr className="border-gray-300" />
+        </div>
+
+        <div className="flex gap-10 mt-7">
+          <div className=" cursor-pointer w-12 h-12 border-2 rounded-full flex justify-center items-center">
+            <p>IG</p>
+          </div>
+
+          <div className=" cursor-pointer  w-12 h-12 border-2 rounded-full flex justify-center items-center">
+            <p>FB</p>
+          </div>
+
+          <div className=" cursor-pointer w-12 h-12 border-2 rounded-full flex justify-center items-center">
+            <p>YT</p>
+          </div>
+        </div>
+
+        <div className="flex gap-5 mt-14 text-gray-400">
+          <span className=" cursor-pointer">Terms and Conditions</span>
+          <span className=" cursor-pointer">Privacy Policy</span>
+          <span className=" cursor-pointer">Return Policy</span>
+          <span className=" cursor-pointer">Shipping & Delivery</span>
+        </div>
+
+        <div className="text-gray-400 mt-7">
+          <p>Copyright © 2024 Abhyanjana. All Rights Reserved</p>
         </div>
       </div>
-      <hr className="border-gray-300 w-[80vw]" />
-
-      {/* {lower part} */}
-      <div>
-        <div className="flex gap-3">
-          <div className="w-20 h-20 border-2 border-white rounded-full flex items-center justify-center ">
-            <h1>insta</h1>
-          </div>
-
-          <div className="w-20 h-20 border-2 border-white rounded-full flex items-center justify-center">
-            <h1>Facebook</h1>
-          </div>
-
-          <div className="w-20 h-20 border-2 border-white rounded-full flex items-center justify-center">
-            <h1>YouTube</h1>
-          </div>
-        </div>
-
-        <div className="flex gap-3">
-          <h1>About Us</h1>
-          <h1>Products</h1>
-          <h1>Blogs</h1>
-          <h1>Contact Us</h1>
-        </div>
-
-        <p>Copyright © 2024 Abhyanjana. All Rights Reserved</p>
-      </div>
-    </div>
+    </>
   );
 }
 
