@@ -2,10 +2,10 @@ import React from "react";
 import care from "../assets/care.png";
 function Care() {
   return (
-    <div className="w-[80vw] flex flex-col justify-center items-center gap-10">
+    <div className="w-[90vw] h-[85vh] flex flex-col justify-center items-center gap-10">
       <h1 className="text-5xl mt-7">Abhyanjana: Crafting Care</h1>
-      <div className="flex gap-7 border-orange-300 border-2 rounded-s-full">
-        <img src={care} className="w-[50vw] border-white rounded-s-full" />
+      <div className="flex gap-7 border-orange-300 border-2 rounded-full mx-7 justify-center items-center">
+        <img src={care} className="w-[40vw] border-white rounded-s-full" />
         <div>
           <p>
             Abhyanjana, emerged from a tradition of natural remedies, starting
