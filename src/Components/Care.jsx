@@ -2,12 +2,12 @@ import React from "react";
 import care from "../assets/care.png";
 function Care() {
   return (
-    <div className="w-[90vw] h-[85vh] flex flex-col justify-center items-center gap-10">
+    <div className="w-[100vw] h-[85vh] flex flex-col justify-center items-center gap-10">
       <h1 className="text-5xl mt-7">Abhyanjana: Crafting Care</h1>
-      <div className="flex gap-7 border-orange-300 border-2 rounded-full mx-7 justify-center items-center">
+      <div className="flex gap-7 border-orange-300 border-2 rounded-full justify-center items-center mx-28 w-[70vw] overflow-hidden ">
         <img src={care} className="w-[40vw] border-white rounded-s-full" />
         <div>
-          <p>
+          <p className="w-[30vw]">
             Abhyanjana, emerged from a tradition of natural remedies, starting
             with a grandmother’s handcrafted hair oil made from homegrown
             ingredients. This recipe was perfected by a devoted mother for her
